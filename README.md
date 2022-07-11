@@ -9,4 +9,4 @@ wget --recursive   --page-requisites --domains 21ideas.org  https://www.21ideas.
 pip install html2markdown
 
 cd www.21ideas.org
-./article.md.sh
+./python3 htm2md.py 
