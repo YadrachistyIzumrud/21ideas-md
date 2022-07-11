@@ -6,7 +6,10 @@
 wget --recursive   --page-requisites --domains 21ideas.org  https://www.21ideas.org
 
 Устанавливаем библиотеку:
+
 pip install html2markdown
+
+Запускаем: 
 
 cd www.21ideas.org
 
