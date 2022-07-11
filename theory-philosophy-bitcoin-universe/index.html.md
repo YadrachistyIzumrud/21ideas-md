@@ -165,4 +165,13 @@ _“Я уверен, что мы, как Биткоин-амбассадоры �
 Твердые деньги были выбором свободного рынка и правили в течение 4900 из 5000 лет истории коммерческой деятельности человека. Сегодня мы наблюдаем их возрождение в форме Биткоина.
 
 <figure class="kg-card kg-embed-card"><blockquote class="twitter-tweet"><p dir="ltr" lang="en">Sound money is the norm of human history and we will return to it with <a href="https://twitter.com/hashtag/Bitcoin?src=hash&amp;ref_src=twsrc%5Etfw">#Bitcoin</a>. <br/><br/>The century between the gold standard and the Bitcoin standard - the fiat money interregnum - is the real anomaly of history.</p>— Vijay Boyapati (@real_vijay) <a href="https://twitter.com/real_vijay/status/969284549283737600?ref_src=twsrc%5Etfw">March 1, 2018</a></blockquote>
+<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
 </figure>
+
+Биткоин — денежная политика, заслуживающая наибольшее доверие в истории человечества; политика, подрывающая наиболее ненадежные денежно-кредитные политики в истории человечества. 
+
+<figure class="kg-card kg-embed-card"><blockquote class="twitter-tweet"><p dir="ltr" lang="en">Predicting dollar monetary policy: Thousands of PhD economists, politicians, bankers, and journalists pontificating, parsing tea leaves, and making demands.<br/>Predicting bitcoin monetary policy: One Twitter bot <a href="https://t.co/BTho7jC459">https://t.co/BTho7jC459</a></p>— Saifedean.com (@saifedean) <a href="https://twitter.com/saifedean/status/1046752743396974592?ref_src=twsrc%5Etfw">October 1, 2018</a></blockquote>
+<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
+</figure>
+
+Ставка на Биткоин заключается в том, что конкурентная динамика, присущая денежному рынку, будет продолжать развиваться таким же образом, как и на протяжении всей истории.

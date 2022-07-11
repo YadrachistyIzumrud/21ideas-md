@@ -123,4 +123,5 @@
 _Оригинальный твит-шторм:_
 
 <figure class="kg-card kg-embed-card"><blockquote class="twitter-tweet"><p dir="ltr" lang="en">1/ I’ve signed up with Alcor, a cryopreservation company. As part of that, I get a quarterly magazine. The last one was a profile of Hal Finney.<br/><br/>It offers an incredible new view into his personal life, ideals, and perpetual optimism, even against certain death.<br/><br/>A must read👇 <a href="https://t.co/yNM6ccR7lw">pic.twitter.com/yNM6ccR7lw</a></p>— Dan Held (@danheld) <a href="https://twitter.com/danheld/status/1244655439024779265?ref_src=twsrc%5Etfw">March 30, 2020</a></blockquote>
+<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
 </figure>
