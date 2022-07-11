@@ -1,6 +1,6 @@
-#Конвертер статей сайта 21ideas.org в формат md
+Конвертер статей сайта 21ideas.org в формат md
 
-##Работает так:
+Работает так:
 
 Скачиваем сайт:
 wget --recursive   --page-requisites --domains 21ideas.org  https://www.21ideas.org
@@ -9,4 +9,5 @@ wget --recursive   --page-requisites --domains 21ideas.org  https://www.21ideas.
 pip install html2markdown
 
 cd www.21ideas.org
+
 ./article.md.sh
