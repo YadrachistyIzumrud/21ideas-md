@@ -1,16 +1,16 @@
- 
+ # Что такое coldcard?
 
 Coldcard — это аппаратный кошелек, разработанный командой Coinkite. Аппаратный кошелек — это устройство, основной целью которого является защита приватных ключей пользователя. 
 
 Любой, у кого есть доступ к вашим приватным ключам, может потратить все биткоины, хранящиеся в этом кошельке, поэтому переоценить значимость безопасного хранения приватных ключей невозможно. Coldcard использует ряд механизмов и уникальных функций с целью обеспечения безопасности ваших биткоинов на высшем уровне. Coldcard не поставляется с собственным приложением или дополнительным программным обеспечением. Выбор ПО для работы с кошельком является исключительно вашим выбором.
 
-<h1 id="%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-coldcard">Зачем использовать Coldcard?</h1>
+## Зачем использовать Coldcard?
 
 Большинство аппаратных кошельков работают через прямое подключение к ПК с помощью USB-кабеля, который может подвергнуть устройство опасности в виде хакерской атаки, ведь прямое подключение к интернету не исключает возможности взаимодействия с вредоносным ПО. Coldcard — это, пожалуй, самый безопасный аппаратный кошелек для хранения приватных ключей, потому что он предоставляет возможность использования функции “воздушного зазора”. Это означает, что вам никогда не придется физически подключать свой кошелек Coldcard к какому-либо устройству (кроме источника питания)!
 
 Coldcard осуществляет функцию воздушного зазора, передавая информацию выбранному вами программному обеспечению через карту micro SD. Coldcard можно использовать с любым программным обеспечением, поддерживающим стандарт BIP174 для частично подписанных транзакций (PSBT).
 
-<h1 id="%D1%85%D0%B0%D1%80%D0%B0%D0%BA%D1%82%D0%B5%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B8">Характеристики</h1>
+## Характеристики
 
 Вы можете найти более подробную информацию об этом (и не только) на сайте Coinkite в разделе “[документация](https://coldcardwallet.com/docs/)”, а именно:
 
@@ -26,7 +26,7 @@ Coldcard осуществляет функцию воздушного зазор
 *   Создание бумажных кошельков (создание отдельных бумажных кошельков).
 *   Поддержка мульти-подписи (создание и работа с мультисиг-кошельками).
 
-<h1 id="%D0%BA%D0%B0%D0%BA-%D1%8D%D1%82%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82">Как это работает?</h1>
+## Как это работает?
 
 Coldcard можно использовать со многими настольными кошельками, а теперь даже с некоторыми мобильными кошельками, такими как Blue Wallet. Однако наиболее популярная реализация для управления транзакциями Coldcard — это десктоп-кошелек Electrum, о котором и пойдет речь. Существует ряд ПО, совместимых с кошельком Coldcatd, но я советую использовать кошелек Electrum в связке с персональным сервером. Это значительно повысит уровень приватности. Несоблюдение этого требования будет означать, что вы доверяете данные о транзакциях и балансе стороннему серверу. К счастью, все популярные реализации нод поддерживают данную функцию.
 
@@ -36,9 +36,9 @@ Coldcard отличается разнообразием функций, но в
 *   Получение транзакции
 *   Отправка транзакции
 
-<h1 id="%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%B9%D1%82%D0%B5-%D1%81%D0%B2%D0%BE%D0%B9-%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D0%B5%D0%BA">Создайте свой кошелек</h1>
+## Создайте свой кошелек
 
-<figure class="kg-card kg-image-card"><img alt="" class="kg-image" height="300" loading="lazy" src="https://www.21ideas.org/content/images/2021/12/pasted-image-0-2.jpg" width="167"/></figure>
+![pic1](https://github.com/LightningTony/bitcoin-guide-pics/blob/main/practical/Chto_takoe_Coldcard?/pictures/pic1.jpg)
 
 1. Получив кошелек Coldcard, внимательно изучите упаковку на предмет каких-либо повреждений или признаков того, что ее вскрывали. Это очень легко обнаружить благодаря защищенной от взлома упаковке.
 
@@ -46,68 +46,87 @@ Coldcard отличается разнообразием функций, но в
 
 3. PIN состоит из двух частей, каждая из которых должна содержать от двух до шести цифр. Выберите первую часть вашего PIN-кода. Запишите предоставленные кошельком антифишинговые слова. Используйте их в будущем в качестве подтверждения при вводе PIN-кода. В случае попытки подмены вашего устройства при вводе первой части своего PIN-кода на устройстве мошенника вы увидите совершенно другие слова. Это послужит предупреждением о том, что не следует вводить свой PIN-код целиком.  
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img alt="" class="kg-image" loading="lazy" src="https://lh4.googleusercontent.com/IrQfMVyi_9VHnupWI2Ll4ygcHUfTmuWgYkjypInJ_bnyt3ktHhTi0tiRh5zUkUK2oj998H296OmPmMDxGjbjbF85UKYZf0KIKpV-0-LAT6nHTb_Drk7sBr_z4LBicpP_eQ=s0"/><figcaption><em>Снимок экрана из видеогида @BTCSessions с примером антифишинговых слов</em></figcaption></figure>
+| ![pic2](https://github.com/LightningTony/bitcoin-guide-pics/blob/main/practical/Chto_takoe_Coldcard?/pictures/pic2.png) |
+|:--:|
+| _Снимок экрана из видеогида @BTCSessions с примером антифишинговых слов_ |
+
 
 4. Создайте вторую часть своего PIN-кода. Стоит помнить, что вы потеряете доступ к устройству в случае потери любой части кода.
 
 5. Создайте новый кошелек. Вы увидите список из 24 сид-слов, что будет являться основной резервной копией всех биткоинов, депонированных на этот кошелек. На этом этапе, если вы нажмете “4” на аппаратном кошельке, вы откроете функцию добавления дополнительной энтропии к генерации сид-фразы посредством броска игральной кости. Это снижает уровень доверия к генератору случайных чисел, предлагаемому устройством. Вы можете совершить сколько угодно бросков. Если вы выполните этот дополнительный шаг, по окончании процедуры (остановиться можно в любой момент), вы увидите новую сид-фразу. Запишите ее и не делитесь ею ни с кем.
 
-<figure class="kg-card kg-image-card kg-width-wide kg-card-hascaption"><img alt="" class="kg-image" loading="lazy" src="https://lh6.googleusercontent.com/odY2c_t1VW_4N870edXQxUXsj9LpfXqkwQjexbRUSqSwQObBl-FVhuoNJi7CMD_G3J_Nnifu7u2604yM8L5H7zTSl8pTqtE6Vhf5-w58WmiDs-EbetNxYqwalN-o39mRAQ=s0"/><figcaption><em>Экран повышения уровня энтропии посредством бросания игральной кости</em></figcaption></figure>
+| ![pic3](https://github.com/LightningTony/bitcoin-guide-pics/blob/main/practical/Chto_takoe_Coldcard?/pictures/pic3.png) |
+|:--:|
+| _Экран повышения уровня энтропии посредством бросания игральной кости_ |
 
 6. Ответьте на заданный ряд вопросов о вашей сид-фразе. Это делается для того, чтобы убедиться в правильности ее написания. В результате на устройстве, которое никогда не касалось интернета будет создан абсолютно автономный биткоин-кошелек.
 
-<h1 id="%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D1%82%D1%80%D0%B0%D0%BD%D0%B7%D0%B0%D0%BA%D1%86%D0%B8%D0%B8">Получение транзакции</h1>
+## Получение транзакции
 
 7. Перейдите в раздел Advanced &gt; Micro SD &gt; Export wallet &gt; Electrum Wallet (Дополнительные функции &gt; SD-карта &gt; Экспортировать кошелек &gt; кошелек Electrum), выберите тип кошелька “Native Segwit” и подтвердите выбор. Это загрузит на вашу SD-карту файл .json. Этот файл может быть самостоятельно использован лишь для просмотра адресов и остатка средств, но не для их расходования. Теперь извлеките и вставьте SD-карту в компьютер, на котором запущен десктоп-кошелек Electrum.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img alt="" class="kg-image" loading="lazy" src="https://lh4.googleusercontent.com/d-K1ihAGmrPmQWYtm7dLbqRWy5b8mCfGTz4vz9zmPEekdqUXv9IQNChjooy8iHbWrjSYHivcflKGCJhkapeMen9zZ_mNWXSujowDpjT8udSjrjA3KXUNXgdsw5YZDsSxbA=s0"/><figcaption><em>Экспорт меню электронного кошелька</em></figcaption></figure>
+| ![pic4](https://github.com/LightningTony/bitcoin-guide-pics/blob/main/practical/Chto_takoe_Coldcard?/pictures/pic4.png) |
+|:--:|
+| _Экспорт меню электронного кошелька_ |
 
 8. Откройте Electrum и нажмите “Choose” (Выбрать), выберите файл кошелька, который находится на SD-карте, и нажмите “Next” (Далее). После этого кошелек загрузится, и вы увидите предупреждение с просьбой подключить свой Coldcard. Проигнорируйте это сообщение и нажмите “Нет”. Теперь вы можете нажать “Receive” (Получить) и отправить немного сатоши на свой Coldcard.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img alt="" class="kg-image" loading="lazy" src="https://lh3.googleusercontent.com/VPJY7eDJTSNjDZD_8L9no7b0Iupb2-KfRNxMZmItuF4_EsFgC-4FslNAZLRQaFamP-TlIsSqXtcGfEtAisC6RLiR222qAFOZutzUoosrLdD02nZb9ayK0GDIO5ehgLc_XA=s0"/><figcaption><em>Экран получения средств в Electrum</em></figcaption></figure>
+| ![pic5](https://github.com/LightningTony/bitcoin-guide-pics/blob/main/practical/Chto_takoe_Coldcard?/pictures/pic5.png) |
+|:--:|
+| _Экран получения средств в Electrum_ |
 
-<h1 id="%D0%BE%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0-%D1%82%D1%80%D0%B0%D0%BD%D0%B7%D0%B0%D0%BA%D1%86%D0%B8%D0%B8">Отправка транзакции</h1>
+## Отправка транзакции
 
 9. В кошельке Electrum нажмите “Send” (Отправить) и составьте свою транзакцию, как обычно, выбрав адрес получателя, размер комиссии и сумму для отправки. Затем нажмите “Preview” (Предварительный просмотр), проверьте правильность информации, выберите “Save PSBT” (Сохранить частично подписанную транзакцию) и сохраните файл на SD-карту. Теперь у вас есть необработанная транзакция, созданная в Electrum, сохраненная на SD-карте и готовая для подписи автономными приватными ключами, хранящимися на Coldcard. Теперь вставьте SD обратно в свой Coldcard.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img alt="" class="kg-image" loading="lazy" src="https://lh3.googleusercontent.com/a4DHDCHFkLfO1N1yz61x_Ft--LfjEkevCQqrWODTvXxL-s7IMtk8fw7evvfw5bSrvBMsLZrRlOQX5OJ70lqyCnaVgRb407k9iqvhMH2T0y-WqXHGRDZQcHDG3dfoMdAyLA=s0"/><figcaption><em>Предварительный просмотр транзакции Electrum</em></figcaption></figure>
+| ![pic6](https://github.com/LightningTony/bitcoin-guide-pics/blob/main/practical/Chto_takoe_Coldcard?/pictures/pic6.png) |
+|:--:|
+| _Предварительный просмотр транзакции Electrum_ |
 
 10. Введите PIN-код (и пароль, если вы его используете), затем нажмите “Ready to Sign” (Готов подписать). Подтвердите, что вы согласны с деталями транзакции, а затем нажмите кнопку “✅”. Таким образом, ваш Coldcard подписал транзакцию, используя свои приватные ключи, и на вашей SD-карте будет сохранен подписанный файл транзакции, готовой к трансляции в сеть.
 
-<figure class="kg-card kg-image-card"><img alt="" class="kg-image" loading="lazy" src="https://lh4.googleusercontent.com/FqsmaL8wIBZJZnMn7vRF5ul3Y9d-_BRfUw3CMc2KKu61sMQaYumJhhFg7x97NMIswajiWWTY_VUyKFn-Ry-X4tqSgDVZtFnjADyIxSjJwNZ_JDOMfZ5C0veRLXnoz0dJ3g=s0"/></figure>
+| ![pic7](https://github.com/LightningTony/bitcoin-guide-pics/blob/main/practical/Chto_takoe_Coldcard?/pictures/pic7.png) |
+|:--:|
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img alt="" class="kg-image" loading="lazy" src="https://lh6.googleusercontent.com/-GmmSLl7Xh_GJdyMs501TuuAfaDkZkDga6atKNXj_ykvNY2AuYdVvtbA2oXTLxwBupEt08bbqhN9qNkGcxTuoM8vl2uWY247Bttrxubo8UwsAn_QHHbaRp47CYr1guFFBg=s0"/><figcaption><em>Экран “Home” и экран подтверждения транзакции Coldcard</em></figcaption></figure>
+| ![pic8](https://github.com/LightningTony/bitcoin-guide-pics/blob/main/practical/Chto_takoe_Coldcard?/pictures/pic8.png) |
+|:--:|
+| _Экран “Home” и экран подтверждения транзакции Coldcard_ |
 
 11. Вставьте SD-карту обратно в компьютер и откройте Electrum. Нажмите Tools &gt; Load Transaction &gt; From File (Инструменты &gt; Загрузить транзакцию &gt; Из файла). Выберите файл .txn, который вы только что сохранили на SD-карту, и нажмите “Open” (Открыть).
 
 12. Нажмите “Broadcast” (Транслировать), и все готово. Теперь подписанная транзакция будет отправлена в сеть (возможно, с использованием вашей собственной ноды), где будет ожидать размещения в блоке.
 
-<h1 id="%D0%BD%D0%B5%D0%BE%D0%B1%D1%8F%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%BD%D0%BE-%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D1%83%D0%B5%D0%BC%D1%8B%D0%B5-%D1%88%D0%B0%D0%B3%D0%B8">Необязательные, но рекомендуемые шаги</h1>
+## Необязательные, но рекомендуемые шаги
 
-<h3 id="%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D1%83%D1%8E-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8E-%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%D0%BA%D0%B0">Создать резервную копию кошелька</h3>
+### Создать резервную копию кошелька
 
 Резервная копия является зашифрованной копией вашей исходной сид-фразы и может быть сохранена на SD-карте. Это позволит вам восстановить свой кошелек на любой ColdCard, к которому у вас будет доступ.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img alt="" class="kg-image" loading="lazy" src="https://lh4.googleusercontent.com/HAqutH-jqOjloTuHwXyImP3dVUOxy4M1R_e67ZANCZrUJzwyoJTZNLC5Jup5lGFK-JTYp6af7uy3oPK6kdsnf5BUvIIvSz3-_64meBbBAncqb2eIWH1rDx4sGWjMaktuMw=s0"/><figcaption><em>Резервное меню</em></figcaption></figure>
+| ![pic9](https://github.com/LightningTony/bitcoin-guide-pics/blob/main/practical/Chto_takoe_Coldcard?/pictures/pic8.png) |
+|:--:|
+| _Резервное меню_ |
 
 Вставьте SD-карту и перейдите в раздел Advanced &gt; Backup &gt; Backup System (Дополнительно &gt; Резервное копирование &gt; Произвести резервное копирования). Вы увидите список из 12 слов; запишите их для дальнейшего использования в качестве пароля к своему зашифрованному файлу резервной копии. Файл будет записан на SD-карту после того, как вы ответите на вопросы для подтверждения резервного копирования. Вы можете повторить этот процесс несколько раз, чтобы создать несколько резервных копий на разных SD-картах. Ваша дополнительная парольная фраза не является частью этой резервной копии, поэтому убедитесь, что вы надежно сохранили как фразу, так и эти 12 слов.
 
-<h3 id="%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-%D1%84%D1%80%D0%B0%D0%B7%D1%83-%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D1%8C">Добавить фразу-пароль</h3>
+### Добавить фразу-пароль
 
 Фраза-пароль — это дополнительное слово или фраза, добавляемая к исходной сид-фразе, с помощью которой создается отдельный кошелек. Ее можно использовать как дополнительный уровень безопасности на случай, если ваша исходная фраза будет скомпрометирована. Без сид-фразы и парольной фразы злоумышленник не сможет получить доступ к вашим биткоинам.
 
-<figure class="kg-card kg-image-card"><img alt="" class="kg-image" loading="lazy" src="https://lh3.googleusercontent.com/C_6GZLbaJtr3bRwg-91P_ujLkGkTkzV6JbgwoqdykjKmfV32l00SsTYwVCbWV9APDZBznXKJpaiMJ5fUmUOj0hvd7YpPatnQctStDCDElfbwhIAEDUKWldf9Fb3b34k8PA=s0"/></figure>
+| ![pic10](https://github.com/LightningTony/bitcoin-guide-pics/blob/main/practical/Chto_takoe_Coldcard?/pictures/pic10.png) |
+|:--:|
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img alt="" class="kg-image" loading="lazy" src="https://lh4.googleusercontent.com/5WEh1sNBxlULJICcMt1VEvXSxmy2VNrkmCND7L9dZXNv4FvXWavW0vca8b7k_L5GPXrBXgikq0BGFeZq0wd9vURNb98B2Ve0nqAuzbjKQ1FkT1GqNDGGXIVvbDFEeyr1aQ=s0"/><figcaption><em>Меню парольной фразы</em></figcaption></figure>
+| ![pic11](https://github.com/LightningTony/bitcoin-guide-pics/blob/main/practical/Chto_takoe_Coldcard?/pictures/pic11.png) |
+|:--:|
+| _Меню парольной фразы_ |
 
 Нажмите “Passphrase” (Фраза-пароль), прочитайте сообщение, нажмите ОК, а затем “Edit passphrase” (Изменить фразу-пароль). Введите желаемую фразу-пароль и нажмите “Apply” (Применить). Важно помнить, что после указания фразы-пароля ее необходимо вводить каждый раз при восстановлении созданного кошелька. Чтобы убедиться в правильности введения пароля, запишите Fingerprint (Отпечаток) кошелька. Это — уникальный идентификатор, поэтому проверяйте его соответствие при каждом вводе фразы-пароля.
 
-<figure class="kg-card kg-image-card kg-card-hascaption"><img alt="" class="kg-image" loading="lazy" src="https://lh3.googleusercontent.com/U2AXvfEfPXG3vYwDY8eNNLu0BasW1Drq3ds7lNvfcdzECoqeCLjtzMjTtEeFFwILR9-ZJuIIA5oSFmedVz9rlzIQ2be5SYvsYanV16Ovm9w3qYN9CfZ3zhFcn_OI84w9CQ=s0"/><figcaption><em>Экран отпечатка кошелька</em></figcaption></figure>
+| ![pic12](https://github.com/LightningTony/bitcoin-guide-pics/blob/main/practical/Chto_takoe_Coldcard?/pictures/pic12.png) |
+|:--:|
+| _Экран отпечатка кошелька_ |
 
-<h1 id="%D0%B3%D0%B4%D0%B5-%D0%BD%D0%B0%D0%B9%D1%82%D0%B8-%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B5-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8">Где найти больше информации?</h1>
+## Где найти больше информации?
 
 Если вас заинтересовали уникальные функции Coldcard, посетите их веб-сайт, а для получения дополнительной информации о функциях, которые не описаны подробно, обратите внимание на предоставленную [документацию](https://coldcardwallet.com/docs/). Вся информация представлена на английском языке, но я всегда буду рад помочь с настройкой кошелька и попробую ответить на интересующие вас вопросы в [Телеграм](https://t.me/joinchat/BXXs7UtN-Iovc3Oa17iSOQ). Приобрести Coldcard и другие Биткоин-онли продукты Coinkite можно по [данной ссылке](https://store.coinkite.com/promo/970E08C1C7383C967C7B). Для полной прозрачности сообщаю, что предоставленная ссылка является реферальной, и я получаю немного средств при осуществлении покупки с ее использованием, но я никогда не рекламирую и не рекомендую продукты, которыми не пользуюсь сам. Но судите сами: Coldcard является моим кошельком \#1.
 
-Если вы предпочитаете видео-гиды, посмотрите это видео, подготовленное дружественным каналом BitKorn:
-
-<figure class="kg-card kg-embed-card"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="113" src="https://www.youtube.com/embed/5ta2cLMj_d4?feature=oembed" width="200"></iframe></figure>
+Если вы предпочитаете видео-гиды, посмотрите это [видео](https://www.youtube.com/embed/5ta2cLMj_d4?feature=oembed), подготовленное дружественным каналом BitKorn
